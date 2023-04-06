@@ -5,6 +5,7 @@ metadata:
   description: An example of a Backstage application.
   annotations:
      backstage.io/techdocs-ref: dir:.
+     graphql-schema: https://raw.githubusercontent.com/thomaswmanion/tomtest/main/schema.graphql
 spec:
   type: website
   owner: thomaswmanion@gmail.com
