@@ -6,8 +6,6 @@ metadata:
      backstage.io/techdocs-ref: dir:.
   tags:
     - java
-    - "spring boot"
-    - "event consumer"
   type: microservice
   visibility: public
   display:
