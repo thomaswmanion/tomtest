@@ -1,33 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: platform-backstage
-  description: An example of a Backstage application.
+  name: tomtest
+  description: Example setup
   annotations:
      backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   owner: thomaswmanion@gmail.com
   lifecycle: experimental
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: petstore
-  description: The Petstore API
-spec:
-  type: openapi
-  owner: petstore@example.com
-  definition:
-    $text: https://petstore.swagger.io/v2/swagger.json
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: Sample GraphQL
-  description: For Testing
-spec:
-  type: graphql
-  owner: thomaswmanion@gmail.com
-  definition:
-    $text: https://raw.githubusercontent.com/thomaswmanion/tomtest/main/schema.graphql
