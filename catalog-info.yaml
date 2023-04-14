@@ -1,18 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: Component
   tags:
     - java
-  type: microservice
-  visibility: public
-  display:
-    website:
-      title: Event Handler
-      url: https://google.com/
-dependencies:
-  - name: Lib
-    version: 2.1.1-BETA
+  type: microservice
+  visibility: public
+  display:
+    website:
+      title: Event Handler
+      url: https://google.com/
+
 spec:
-  type: microservice
-  owner: Team
-  lifecycle: experimental
+  type: microservice
+  owner: Team
+  lifecycle: experimental
