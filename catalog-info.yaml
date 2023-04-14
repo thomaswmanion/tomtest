@@ -5,11 +5,8 @@ metadata:
   description: Handler
   owner:
     name: Team
-  tags:
-    - microservice
-    - java
-    - spring boot
-    - event handler
+  tags:
+    - java
   type: microservice
   visibility: public
   display:
