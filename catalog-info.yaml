@@ -1,11 +1,25 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tomtest
-  description: Example setup
-  annotations:
-     backstage.io/techdocs-ref: dir:.
+  name: Handler
+  description: Handler
+  owner:
+    name: Team
+  tags:
+    - microservice
+    - java
+    - spring boot
+    - event handler
+  type: microservice
+  visibility: public
+  display:
+    website:
+      title: Event Handler
+      url: https://google.com/
+dependencies:
+  - name: Lib
+    version: 2.1.1-BETA
 spec:
-  type: website
-  owner: thomaswmanion@gmail.com
-  lifecycle: experimental
+  type: microservice
+  owner: Team
+  lifecycle: experimental
